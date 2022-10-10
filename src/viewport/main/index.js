@@ -232,7 +232,7 @@ const Main = () => {
                 <p>Electric or gas powered</p>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1200ms">
+            <div className="col-lg-3 col-md-6 mb-5 mb-md-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1200ms">
               <div className="common-wrap">
                 <div className="lease-img-wrapper">
                   <img alt="blank" className="img-fluid" src={virginiaToColorado} />
