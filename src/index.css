@@ -509,7 +509,7 @@ footer li {
   justify-content: center;
   flex-direction: column;
   padding: 40px;
-  background-image: url(../../cassiel/src/assets/pop-up-bg.png);
+  background-image: url(../src/assets/pop-up-bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
