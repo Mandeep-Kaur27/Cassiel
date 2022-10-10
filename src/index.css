@@ -523,7 +523,7 @@ footer li {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 40px;
+  padding: 40px !important;
   background-image: url(../src/assets/pop-up-bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -537,7 +537,7 @@ footer li {
   background-color: #fff;
   height: 80%;
   margin: auto;
-  width: 80%;
+  width: 70%;
   border-radius: 10px;
   position: relative;
   background-image: url(../src/assets/pop-up-bg.png);
@@ -803,6 +803,7 @@ footer li {
 
   .box {
     width: 90%;
+    padding: 40px 20px !important;
   }
 
   form.ui.form {
@@ -816,8 +817,13 @@ footer li {
     font-size: calc(1.325rem + .8vw);
   }
   .swal2-popup {
-    width: 95%;
+    width: 95% !important;
   }
+  .swal2-container .img-outer {
+    height: 110px;
+    width: 100%;
+    background-position: center;
+}
 }
 
 @media screen and (max-width:767px) {
@@ -826,7 +832,7 @@ footer li {
   }
 
   .swal2-popup {
-    width: 90%;
+    width: 90% !important;
   }
 
   .process-left.text-center {
