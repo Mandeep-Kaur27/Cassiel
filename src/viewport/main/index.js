@@ -49,7 +49,7 @@ const Main = () => {
           <div className="row">
             <div className="col-lg-6 col-md-12 wow pulse animated" data-wow-duration="1000ms" data-wow-delay="600ms">
               <div className="text-wrap">
-                <h1 className="heading"><span className="text-orange">Financing</span> Your Kitchen on <span className="text-orange">Wheels</span></h1>
+                <h1 className="heading"><span className="text-orange">Financing</span> Your <br></br> Kitchen on <span className="text-orange">Wheels</span></h1>
                 <p className="tagline mb-4">Join over 100 food entrepreneurs in 12 states that have leased our food trailers</p>
                 <input className="btn block-btn common-btn"
                   type="button"
@@ -79,12 +79,12 @@ const Main = () => {
           </div>
           <div className="row d-flex align-items-center">
 
-            <div className="col-lg-6 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">
+            <div className="col-lg-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">
               <div className="client-left">
                 <img alt="blank" className="img-fluid img-shadow" src={clientImg} />
               </div>
             </div>
-            <div className="col-lg-6 col-md-6 mb-lg-0">
+            <div className="col-lg-6 mb-lg-0">
               <div className="client-wrapper">
                 <ul className="list-unstyled">
                   <li className="listing wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">
@@ -116,7 +116,7 @@ const Main = () => {
       <div className="features p-80" id="features">
         <div className="container">
           <div className="row d-flex align-items-center">
-            <div className="col-lg-5 col-md-6 mb-lg-0">
+            <div className="col-lg-5 mb-lg-0">
               <div className="col-md-12 wow fadeInLeft animated" data-wow-duration="1000ms" data-wow-delay="600ms">
                 <h1 className="heading text-orange">Lease Features</h1>
               </div>
@@ -158,7 +158,7 @@ const Main = () => {
               </div>
             </div>
 
-            <div className="col-lg-7 col-md-6 mb-lg-0 wow fadeInRight animated" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div className="col-lg-7 mt-3 mb-lg-0 wow fadeInRight animated" data-wow-duration="1000ms" data-wow-delay="600ms">
               <div className="featues-right">
                 <img alt="blank" className="img-fluid" src={featureImg} />
               </div>
@@ -175,19 +175,19 @@ const Main = () => {
             </div>
           </div>
           <div className="row d-flex align-items-center">
-            <div className="col-md-4 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div className="col-lg-4 mb-5 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="600ms">
               <div className="common-wrap">
                 <img alt="blank" className="img-fluid" src={ltoIocn} />
                 <h4 className="mb-0 mt-4">Lease to Own</h4>
               </div>
             </div>
-            <div className="col-md-4 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">
+            <div className="col-lg-4 mb-5 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">
               <div className="common-wrap">
                 <img alt="blank" className="img-fluid" src={buyOut} />
                 <h4 className="mb-0 mt-4">Early Buyout</h4>
               </div>
             </div>
-            <div className="col-md-4 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1000ms">
+            <div className="col-lg-4 mb-5 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1000ms">
               <div className="common-wrap">
                 <img alt="blank" className="img-fluid" src={tradeIn} />
                 <h4 className="mb-0 mt-4">Trade In & Trade Up</h4>
@@ -214,7 +214,7 @@ const Main = () => {
             </div>
           </div>
           <div className="row d-flex align-items-center">
-            <div className="col-md-3 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">
+            <div className="col-lg-3 col-md-6 mb-5 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="800ms">
               <div className="common-wrap">
                 <div className="lease-img-wrapper">
                   <img alt="blank" className="img-fluid" src={smallToLarge} />
@@ -223,7 +223,7 @@ const Main = () => {
                 <p>From 6x12 to 20’ porch trailers</p>
               </div>
             </div>
-            <div className="col-md-3 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1000ms">
+            <div className="col-lg-3 col-md-6 mb-5 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1000ms">
               <div className="common-wrap">
                 <div className="lease-img-wrapper">
                   <img alt="blank" className="img-fluid" src={electric} />
@@ -232,7 +232,7 @@ const Main = () => {
                 <p>Electric or gas powered</p>
               </div>
             </div>
-            <div className="col-md-3 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1200ms">
+            <div className="col-lg-3 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1200ms">
               <div className="common-wrap">
                 <div className="lease-img-wrapper">
                   <img alt="blank" className="img-fluid" src={virginiaToColorado} />
@@ -241,7 +241,7 @@ const Main = () => {
                 <p>Trailers in 12 states</p>
               </div>
             </div>
-            <div className="col-md-3 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1400ms">
+            <div className="col-lg-3 col-md-6 mb-lg-0 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="1400ms">
               <div className="common-wrap">
                 <div className="lease-img-wrapper">
                   <img alt="blank" className="img-fluid" src={vegan} />

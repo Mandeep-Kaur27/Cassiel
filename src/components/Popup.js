@@ -16,10 +16,8 @@ const Popup = props => {
             .then((result) => {
                 console.log(result.text);
                 Swal.fire({
-                    imageUrl: "../../thankyou-icon.png",
-                    imageHeight:"170px",
-                    imageAlt: "thank you",
-                    html: `<p class="tagline"> A member of the Cassiel team will get back to you shortly.<br> Have a nice day! <br>Team Cassiel</p>
+                    html: `<div class="img-outer"></div>
+                    <p class="tagline"> A member of the Cassiel team will get back to you shortly.<br> Have a nice day! <br>Team Cassiel</p>
                      <h4 class="mt-4"><i>Financing Your Kitchen On Wheels</i></h4> `
             })
             }, (error) => {
@@ -34,7 +32,7 @@ const Popup = props => {
     };
     return (
         <div className="popup-box">
-            <div className="container h-100 d-flex align-items-center">
+            <div className="container-fluid h-100 d-flex align-items-center">
                 <div className="row">
                     <div className="box p-5 text-center">
                         <div className="popup-wrappper">
