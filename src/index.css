@@ -525,7 +525,7 @@ footer li {
   width: 80%;
   border-radius: 10px;
   position: relative;
-  background-image: url(../../cassiel/src/assets/pop-up-bg.png);
+  background-image: url(../src/assets/pop-up-bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
