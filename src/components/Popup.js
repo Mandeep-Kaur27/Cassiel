@@ -2,6 +2,7 @@ import React, { } from 'react';
 import { FaTimes } from "react-icons/fa";
 import emailjs from 'emailjs-com';
 import { Form, Input, Button } from 'semantic-ui-react';
+import ReactTooltip from "react-tooltip";
 import Swal from 'sweetalert2';
 
 const SERVICE_ID = "service_kdt0zni";
@@ -49,7 +50,9 @@ const Popup = props => {
                                         control={Input}
                                         name='sell'
                                         placeholder='Description of the food you plan to sell?*'
-                                        type="text"                                        
+                                        type="text" 
+                                        data-tip="Description of the food you plan to sell?*"
+                                        data-event="click"                                    
                                         required
                                     />
                                 </div>
@@ -103,6 +106,8 @@ const Popup = props => {
                                         placeholder='City and State where you plan to serve*'
                                         required
                                         type="text"
+                                        data-tip="City and State where you plan to serve*"
+                                        data-event="click"
                                     />
                                 </div>
                                 <div className="row">
@@ -119,6 +124,8 @@ const Popup = props => {
                                         name='people'
                                         placeholder='How many people do you expect to work in the trailer?'
                                         type="text"
+                                        data-tip="How many people do you expect to work in the trailer?"
+                                        data-event="click"
                                     />
                                 </div>
 
@@ -129,6 +136,8 @@ const Popup = props => {
                                         name='service'
                                         placeholder='How many years of food service?'
                                         type="text"
+                                        data-tip="How many years of food service?"
+                                        data-event="click"
                                     />
                                 </div>
 
@@ -137,8 +146,10 @@ const Popup = props => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>            
+            <ReactTooltip place="bottom" effect="solid" globalEventOff="click" />
         </div>
+        
     );
 
 };
