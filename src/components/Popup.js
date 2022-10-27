@@ -5,9 +5,9 @@ import { Form, Input, Button } from 'semantic-ui-react';
 import ReactTooltip from "react-tooltip";
 import Swal from 'sweetalert2';
 
-const SERVICE_ID = "service_kdt0zni";
-const TEMPLATE_ID = "template_v341q0c";
-const USER_ID = "V1xhN12rp5Zjn67cQ";
+const SERVICE_ID = "service_lrnbaa7";
+const TEMPLATE_ID = "template_9mcf0rg";
+const USER_ID = "RWI4BElgN11OMNint";
 
 
 const Popup = props => {
@@ -103,10 +103,10 @@ const Popup = props => {
                                         id='form-input-control-city'
                                         control={Input}
                                         name='city'
-                                        placeholder='City and State where you plan to serve*'
+                                        placeholder='City & State where you plan to serve*'
                                         required
                                         type="text"
-                                        data-tip="City and State where you plan to serve*"
+                                        data-tip="City & State where you plan to serve*"
                                         data-event="click"
                                     />
                                 </div>
@@ -122,9 +122,9 @@ const Popup = props => {
                                         id='form-input-control-people'
                                         control={Input}
                                         name='people'
-                                        placeholder='How many people do you expect to work in the trailer?'
+                                        placeholder='How many people working in trailer?'
                                         type="text"
-                                        data-tip="How many people do you expect to work in the trailer?"
+                                        data-tip="How many people working in trailer?"
                                         data-event="click"
                                     />
                                 </div>
@@ -134,9 +134,9 @@ const Popup = props => {
                                         id='form-input-control-service'
                                         control={Input}
                                         name='service'
-                                        placeholder='How many years of food service?'
+                                        placeholder='How many years of food experience?'
                                         type="text"
-                                        data-tip="How many years of food service?"
+                                        data-tip="How many years of food experience?"
                                         data-event="click"
                                     />
                                 </div>
